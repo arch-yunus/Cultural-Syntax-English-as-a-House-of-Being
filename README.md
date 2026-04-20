@@ -6,6 +6,28 @@
 
 Bu depo (repository), alışılagelmiş bir dil öğrenme rehberi değildir. Martin Heidegger’in *"Dil, varlığın evidir"* önermesinden yola çıkarak; İngilizceyi yalnızca bir iletişim aracı değil, algıyı, mantığı ve kültürel etkileşimi şekillendiren bir **bilişsel işletim sistemi** olarak ele alır.
 
+```mermaid
+graph TD
+    A[Language: The House of Being] --> B[Module 01: Ontological Foundations]
+    A --> C[Module 02: Maritime & Industrial Origins]
+    A --> D[Module 03: Literary OS - Shakespearean DNA]
+    A --> E[Module 04: Nuance Engineering]
+    A --> F[Module 05: Techno-Cultural Interface]
+    
+    B --> B1(Directness vs Context)
+    C --> C1(Idioms as Code)
+    D --> D1(Rhetoric & Debate)
+    E --> E1(Register & Understatement)
+    F --> F1(Boolean Logic & Syntax)
+    
+    style A fill:#f96,stroke:#333,stroke-width:4px
+    style B fill:#bbf,stroke:#333
+    style C fill:#bbf,stroke:#333
+    style D fill:#bbf,stroke:#333
+    style E fill:#bbf,stroke:#333
+    style F fill:#bbf,stroke:#333
+```
+
 Bir dili, o dili doğuran kültürden bağımsız öğrenmek; bir programlama dilinin mimarisini bilmeden sadece sözdizimini (syntax) ezberlemeye benzer. Bu proje, **dilsel yetkinliği (Linguistic Proficiency)**, **kültürel zeka (CQ)** ile entegre ederek İngilizceyi bir "sistem mimarı" derinliğiyle kavramayı hedefler.
 
 ---
