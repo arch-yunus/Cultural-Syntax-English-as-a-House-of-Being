@@ -1,6 +1,4 @@
-Anladım. Felsefeyi temel alan, dili bir "kültürel işletim sistemi" olarak gören ve profesyonel bir duruş sergileyen Türkçe **README.md** taslağını aşağıda bulabilirsin.
 
----
 
 # 🏗️ Cultural-Syntax: Varlığın Evi Olarak İngilizce
 
