@@ -38,44 +38,64 @@ Bir dili, o dili doğuran kültürden bağımsız öğrenmek; bir programlama di
 
 ---
 
-## 🏛️ Mimari Yapı
+## 🏛️ Mimari Yapı: Katmanlı Analiz
 
 Repo, dilin ve kültürün farklı katmanlarını temsil eden beş ana modülden oluşmaktadır:
 
-### 1. `01_Ontolojik_Temeller/`
-* **Doğrusallık Mantığı:** Batı'daki "Doğrudan İletişim" modeli ile Doğu'daki bağlam odaklı kültürlerin kıyaslanması.
-* **Algı Olarak Zaman (Tense):** İngilizcedeki zaman yapılarının, zamanı nasıl mimari bir öğe olarak gördüğü (Örn: *Present Perfect*’in geçmiş ve gelecek arasında kurduğu köprü).
-* **Özne Egemenliği:** Bireyciliğin cümle yapısına ve etken (active) çatı kullanımına etkisi.
+### 1. `01_Ontolojik_Temeller/` (Linguistic Ontology)
+*   **Doğrusallık ve Zaman Okulu:** Batı'daki "Zaman Paradigması". İngilizcedeki zaman yapılarının (Tenses), eylemi nasıl parçalara böldüğü ve birer "zaman bloğu" olarak nasıl mimari bir öğeye dönüştürdüğü analizi.
+*   **Özne Merkezli Dünya:** İngilizce cümlenin merkezindeki "I/Subject" egemenliğinin, bireycilik ve sorumluluk bilinci üzerindeki etkileri.
+*   **Context vs. Content:** Yüksek bağlamlı (Doğu) ve düşük bağlamlı (Batı) kültürlerin iletişim protokolleri arasındaki farklar.
 
-### 2. `02_Denizci_ve_Endüstriyel_Etimoloji/`
-* **Denizci Çekirdek:** Britanya'nın denizcilik tarihinden doğan deyimlerin kodlarını çözmek (*"Learning the ropes"*, *"Steady as she goes"*).
-* **Endüstriyel Motor:** Sanayi Devrimi'nin dili nasıl mekanikleştirdiği ve verimlilik metaforlarını nasıl yerleştirdiği.
-* **Küresel İngilizce (Lingua Franca):** İngilizcenin modüler ve adaptif bir küresel protokole dönüşüm süreci.
+### 2. `02_Denizci_ve_Endüstriyel_Etimoloji/` (The Historical Engine)
+*   **The Maritime Protocol:** İngilizcenin denizcilik terimleri üzerinden nasıl bir "emir-komuta ve hayatta kalma" dili haline geldiği.
+*   **Sanayi Devrimi ve Verimlilik:** Buharlı makinelerden seri üretime; dilin nasıl mekanikleştiği ve "Input/Output" mantığının dile sızışı.
+*   **Global Lingua Franca:** Bir dilin yerellikten çıkıp nasıl bir "evrensel işletim sistemi protokolüne" dönüştüğü.
 
-### 3. `03_Edebiyat_İşletim_Sistemi/`
-* **Shakespearean DNA:** Modern İngilizcenin çekirdek yapısını oluşturan 1700'den fazla kelime ve kalıbın analizi.
-* **Retorik ve İkna:** Tartışma (debate) kültürü ve hitabetin bir kültürel sütun olarak incelenmesi.
-* **Distopik Semantik:** Orwell ve Huxley üzerinden; kelime dağarcığının sınırları ile düşünce özgürlüğü arasındaki ilişki.
+### 3. `03_Edebiyat_İşletim_Sistemi/` (Literary OS)
+*   **Shakespearean DNA:** Modern İngilizcenin temel taşlarını oluşturan 1700+ kelimenin, modern düşünce yapısını nasıl inşa ettiği.
+*   **Retorik ve İkna Mühendisliği:** Antik Yunan'dan modern İngiliz siyasetine; bir fikri "satma" ve "savunma" sanatının dilsel kodları.
+*   **Distopik Semantik:** Orwell ve Huxley'in dilleri; kelimeler azaldıkça düşünce özgürlüğünün nasıl daraldığının teknik analizi.
 
-### 4. `04_Nüans_Mühendisliği/`
-* **Understatement (Hafifletme Sanatı):** İngiliz kültüründeki dolaylı eleştiri ve nezaket dilinin teknik analizi.
-* **Örtmece (Euphemism):** Bir kelimenin teknik olarak doğru olsa bile kültürel olarak neden "hatalı" olabileceğinin kavranması.
-* **Latince - Germen Ayrımı:** Akademik/üst düzey dil ile halk dili arasındaki katmanlı yapının çözümlenmesi.
+### 4. `04_Nüans_Mühendisliği/` (The Nuance Interface)
+*   **Understatement (Hafifletme):** *"It's not ideal"* cümlesinin aslında *"Bu bir felaket"* anlamına geldiği kültürel çeviri katmanları.
+*   **Euphemism & Social Engineering:** Gerçeği örtme ve nezaket dilinin toplumsal mühendislikteki rolü.
+*   **Latince-Germen Hiyerarşisi:** Akademik dil (Latince kökenli) ile sokak dili (Germen kökenli) arasındaki geçişkenlik ve statü kodları.
 
-### 5. `05_Tekno-Kültürel_Arayüz/`
-* **İnovasyonun Dili:** İngilizcenin neden Ar-Ge ve yazılım dünyasının ana dili olduğunun felsefi analizi.
-* **Mantık Kapıları ve Syntax:** İngilizce cümle yapısı ile Boolean mantığı ve yazılım algoritmaları arasındaki sinerji.
-* **Akademik Egemenlik:** Batı akademisindeki "Eleştirel Düşünce" (Critical Thinking) çerçevesinde yazma ve düşünme disiplini.
+### 5. `05_Tekno-Kültürel_Arayüz/` (Digital Synapsis)
+*   **Coding in English:** İngilizce cümle yapısının neden Boolean mantığına (AND, OR, IF/THEN) bu kadar yakın olduğunun felsefi temelleri.
+*   **Ar-Ge ve İnovasyon Dili:** Neden en büyük teknoloji şirketleri ve bilimsel makaleler bu dili "default" kabul eder?
+*   **Critical Thinking Framework:** İngilizce yazım kurallarındaki "Tez-Argüman-Sentez" yapısının, beynin çalışma şeklini nasıl "analitik" bir moda soktuğu.
 
 ---
 
-## 🛠️ Uygulama Stratejisi
+## ⚙️ Operasyonel Protokoller (How to Use)
 
-Bu repo, dil ediniminde **"Derin Çalışma" (Deep Work)** metodolojisini benimser:
+Bu depo, pasif bir okuma alanı değil, aktif bir **bilişsel laboratuvardır**:
 
-1.  **Kelime Değil Kavram:** 10 kelime ezberlemek yerine, bir kültürel kavramın (Örn: *Fair Play* veya *Serendipity*) yapısı sökülür.
-2.  **Emülasyon Olarak İçselleştirme:** Bilişsel çevreyi yüksek sinyalli İngilizce veriyle çevreleyerek bir "kültürel simülasyon" oluşturmak.
-3.  **Tersine Mühendislik:** Teknik dökümantasyonları, makaleleri ve felsefi metinleri sadece "içerik" olarak değil, birer "kaynak kod" olarak analiz etmek.
+1.  **Deep Semantic Analysis:** Bir metni okurken sadece anlamını değil, seçilen kelimelerin etimolojik kökenlerini ve neden o bağlamda kullanıldığını "tersine mühendislik" (reverse engineering) yaparak analiz edin.
+2.  **Linguistic Emulation:** Günlük düşünce akışınızı, hedef dilin mantık süzgecinden (Active voice, Subject-Verb-Object) geçirerek yeniden yapılandırın.
+3.  **Cross-Disciplinary Connection:** Öğrendiğiniz her dilsel yapıyı bir tarihsel olayla veya bir teknolojik kavramla eşleştirin.
+
+---
+
+## 🧠 Nöral Arayüz: Dil Beyni Nasıl Değiştirir?
+
+Yeni bir dil öğrenmek, beyinde yeni "nöral patikalar" açmak demektir. İngilizce gibi analitik ve yapılandırılmış bir dili öğrenmek:
+*   **Executive Function:** Planlama ve karar verme mekanizmalarını güçlendirir.
+*   **Cognitive Flexibility:** Olaylara farklı açılardan bakabilme (Perspective taking) yeteneğini artırır.
+*   **Information Density:** Daha az kelimeyle daha fazla teknik veri aktarma kapasitesini geliştirir.
+
+---
+
+## 🚀 Yol Haritası (Roadmap)
+
+- [x] Temel mimarinin kurulması (Manifesto).
+- [x] Modül içeriklerinin (01-05) ana hatlarıyla belirlenmesi.
+- [ ] Etimolojik veri tabanının genişletilmesi.
+- [ ] Etkileşimli Mermaid diyagramlarının (Grammar Logic) eklenmesi.
+- [ ] Sesli/Görsel analiz kütüphanesinin (Shakespearean Speech) entegrasyonu.
+- [ ] Topluluk katkılarıyla "Nüans Sözlüğü" oluşturulması.
 
 ---
 
@@ -89,8 +109,11 @@ Bu repo, dil ediniminde **"Derin Çalışma" (Deep Work)** metodolojisini benims
 
 ## 🤝 Katkı Sağlama
 
-Bu proje, zihin için açık kaynaklı bir araştırma laboratuvarıdır. **Etnolinguistik**, **Etimoloji** ve **Teknoloji Felsefesi** konularındaki katkılara açıktır.
+Bu proje, zihin için açık kaynaklı bir araştırma laboratuvarıdır. **Etnolinguistik**, **Etimoloji** ve **Teknoloji Felsefesi** konularındaki katkılara açıktır. Lütfen eklemek istediğiniz modülleri ve analizleri `Pull Request` olarak gönderin.
 
 ---
 
-*“Başka bir dile sahip olmak, ikinci bir ruha sahip olmaktır.”* – **Şarlman**
+<div align="center">
+  <i>“Başka bir dile sahip olmak, ikinci bir ruha sahip olmaktır.”</i><br>
+  <strong>– Şarlman</strong>
+</div>
