@@ -1,8 +1,8 @@
 <div align="center">
 
-![Cultural Syntax Banner](assets/images/banner.png)
+![Cultural Syntax Banner](assets/images/kizilelma_hybrid_concept.png)
 
-# 🏗️ Cultural-Syntax: Varlığın Evi Olarak İngilizce
+# 🏗️ ÖTGÜN: Varlığın Evi Olarak İngilizce (Linguistic OS v3.0)
 
 [![Linguistic Grade](https://img.shields.io/badge/Grade-Cognitive--Sovereign-gold?style=for-the-badge&logo=probot)](https://github.com/arch-yunus/Cultural-Syntax-English-as-a-House-of-Being)
 [![Ontological Status](https://img.shields.io/badge/Status-Heidegger--Safe-blue?style=for-the-badge&logo=philosophy)](https://github.com/arch-yunus/Cultural-Syntax-English-as-a-House-of-Being)
@@ -70,6 +70,22 @@ Bir kelime, sadece bir ses dizisi değildir; binlerce yıllık evrimsel verinin 
 1.  **Çekirdeği Başlatın:** `01_Ontolojik_Temeller` altındaki `being.asm` dosyasını inceleyerek dilin varoluşsal syscall'larını anlayın.
 2.  **DNA'yı Deşifre Edin:** `03_Edebiyat_İşletim_Sistemi` içinde Shakespearean fonksiyonların modern dile nasıl 'inline' edildiğini görün.
 3.  **Kernel'i Derleyin:** `05_Tekno-Kültürel_Arayüz` altındaki `cognitive_kernel.rs` ile zihinsel mantık kapılarınızı güncelleyin.
+
+---
+
+<div align="center">
+  <img src="assets/images/auv_kizilelma_banner.png" width="100%" alt="Kızılelma AUV Tactical Banner" />
+</div>
+
+---
+
+## 🔱 Bilişsel Hibritlik: Çift-Domain Egemenliği
+
+Dil öğrenimi, sadece yeni kelimeler ezberlemek değil, zihni hem "hava" (hızlı iletişim/soyut düşünce) hem de "deniz" (derin anlam/ontolojik derinlik) modlarında çalışabilen hibrit bir araca dönüştürmektir.
+
+![KIZILELMA-H Hybrid Intelligence](assets/images/kizilelma_hybrid_concept.png)
+
+*KIZILELMA-H konsepti, Cultural-Syntax'ın zihinsel esneklik ve domainler arası geçiş felsefesini simgeler.*
 
 ---
 
