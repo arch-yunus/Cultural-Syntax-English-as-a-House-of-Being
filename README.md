@@ -1,6 +1,12 @@
+<div align="center">
 
+![Cultural Syntax Banner](assets/images/banner.png)
 
 # 🏗️ Cultural-Syntax: Varlığın Evi Olarak İngilizce
+
+</div>
+
+---
 
 ## 🎯 Proje Manifestosu: "Dil, Hakikatin Evidir"
 
