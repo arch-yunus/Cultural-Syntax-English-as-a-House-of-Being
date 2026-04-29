@@ -1,48 +1,18 @@
-# 🧬 04: Nüans Mühendisliği - Dilin Katmanları
+# 👔 Modül 04: Nüans Mühendisliği (Nuance Engineering)
 
-İngilizce, iki farklı kelime havuzuna (Germanic ve Latinate) sahip katmanlı bir dildir. Bu modül, nezaket, dolaylılık ve register (dil düzeyi) mühendisliğini inceler.
+Bu modül, İngilizcedeki "Register Switching" (Kayıt Değiştirme) ve nezaket katmanlarını, bir sistemdeki bellek yönetimi (Memory Management) olarak inceler.
 
-## 1. Latinate vs. Germanic (Halk Dili vs. Akademik Dil)
+## ⚙️ Register Katmanları
+İngilizce, Germen ve Latince kökenli iki ana katmandan oluşur. Bu, bir bilgisayardaki "User Mode" ve "Kernel Mode" arasındaki geçişe benzer.
 
-İngilizcedeki kelime seçiminiz, hangi "sosyal katmanda" konuştuğunuzu belirler.
+### Teknik Analiz:
+*   **Understatement (Hafifletme):** İngiliz kültüründe bir "Hata Yakalama" (Error Handling) mekanizmasıdır. Negatif bir veriyi, sistemin çökmemesi (sosyal kriz çıkmaması) için daha düşük bir voltajla iletir.
+*   **Memory Swapping:** Farklı sosyal ortamlarda doğru kelime haznesini seçmek, beynin doğru kütüphaneleri (libraries) yüklemesi gibidir. Akademik bir ortamda Latince kökenli kelimelere geçiş yapmak, yüksek seviyeli bir abstraction protokolüdür.
 
-*   **Germanic Kökenli (Old English):** Kısa, sert, doğrudan, duygusal. Günlük hayatta ve yakın ilişkilerde kullanılır. (Örn: *Help, Lie, End, Ask*)
-*   **Latinate Kökenli (French/Latin):** Uzun, çok heceli, soyut, resmi. Akademik, hukuki ve profesyonel dünyada kullanılır. (Örn: *Assist, Misinformation, Terminate, Appeal*)
-
-> **Kural:** Eğer bir şeyi çok basit anlatmak istiyorsanız Germanic, çok sofistike veya mesafeli anlatmak istiyorsanız Latinate kelimeleri seçin.
-
-## 2. Understatement (Hafifletme Sanatı)
-
-İngiliz kültüründe (özellikle British English), bir şeyi olduğundan daha az önemliymiş gibi göstermek bir zeka ve nezaket göstergesidir. Buna **"Litotes"** denir.
-
-| Söz (Understatement) | Teknik Çeviri | Gerçek Anlamı |
-| :--- | :--- | :--- |
-| "It's not bad." | İyi değil. | "Mükemmel!" |
-| "A bit of a problem." | Küçük bir sorun. | "Tam bir felaket!" |
-| "I was a bit disappointed." | Biraz hayal kırıklığına uğradım. | "Çok sinirliyim." |
-
-## 3. Örtmece (Euphemism) Mühendisliği
-
-Zor veya kaba durumları yumuşatma sanatıdır. İngilizcede birine "yalan söylüyorsun" demek yerine "ekonomik davranıyorsun" (being economical with the truth) denilebilir.
-
-*   **Social Harmony:** Amacı çatışmayı önlemek ve "yüzü korumak" (saving face).
+## 📄 nuance_config.yaml Analizi
+Bu dosya, sosyal filtrelerin nasıl "parametre edildiğini" gösterir:
+1.  **Germanic vs Latinate:** Hangi register'ın hangi ortamda (Usage) daha verimli olduğunun konfigürasyonu.
+2.  **Understatement Threshold:** İngiliz nezaket dilindeki "gerçeği hafifletme" eşiği.
 
 ---
-
-### 🧪 Nüans Simülasyonu
-
-```bash
-# Register (Dil Düzeyi) Testi
-Input: "Dükkanı kapattık."
-
-Germanic (Direct): "We shut the shop." 
-# (Sert, net, köylü pazarında söylenebilir)
-
-Latinate (Formal): "We have ceased operations at this facility." 
-# (Resmi, kurumsal, hissedarlara açıklama yaparken)
-```
-
----
-
-> [!CAUTION]
-> İngilizcedeki "nüans" farklarını kaçırmak, teknik olarak doğru ama kültürel olarak "kaba" veya "yanlış" algılanmanıza neden olabilir.
+**Status:** Social Protocols Calibrated.
